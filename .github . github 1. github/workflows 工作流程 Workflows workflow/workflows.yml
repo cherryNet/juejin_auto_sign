@@ -2,7 +2,7 @@ name: juejin_auto_sign
 
 on:
   # 手动触发
-  # workflow_dispatch:
+  workflow_dispatch:
   push:
 
   # 定时执行
