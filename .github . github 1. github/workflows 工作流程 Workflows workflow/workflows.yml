@@ -1,9 +1,8 @@
 name: juejin_auto_sign
 
-on:
+on: [push, pull_request]
   # 手动触发
   # workflow_dispatch:
-  push:
 
   # 定时执行
   #schedule:
